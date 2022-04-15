@@ -1,0 +1,16 @@
+<html>
+    <style>
+        h1 {
+            padding: 25px;
+        }
+        </style>
+    <head>
+    </head>
+    <body>
+        <center>
+            <h1>The randomly selected emotion is: <b>{{ emotion_name }}</b></h1>
+            <img src={{ url_for('static', filename='images') }}/{{ file_name }} alt="Feeling Wheel" width="800" height="800">
+        </center>
+
+    </body>
+</html>
