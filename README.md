@@ -16,6 +16,12 @@ export AWS_DEFAULT_PROFILE=zappa
 zappa deploy dev
 ```
 
+To kill:
+
+```
+zappa undeploy dev
+```
+
 Is created from a simple flask app in app.py with all logic for the app
 contained within. To run locally:
 
